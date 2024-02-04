@@ -1,0 +1,49 @@
+[0m06:32:09.257982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a065e2bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a06b2b0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a049c8a90>]}
+
+
+============================== 06:32:09.263900 | 61a14a99-ae1d-4107-9160-e96d21e08496 ==============================
+[0m06:32:09.263900 [info ] [MainThread]: Running with dbt=1.7.7
+[0m06:32:09.264691 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/akmalhafiz1771998/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init adventureworks_dwh', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:32:09.265724 [debug] [MainThread]: Starter project path: /home/akmalhafiz1771998/data_warehouse/adventureworks/adventureworks_venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m06:32:09.269175 [info ] [MainThread]: 
+Your new dbt project "adventureworks_dwh" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:32:09.269800 [info ] [MainThread]: Setting up your profile.
+[0m06:33:50.753213 [info ] [MainThread]: Profile adventureworks_dwh written to /home/akmalhafiz1771998/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m06:33:50.757987 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 101.60752, "process_user_time": 2.9628, "process_kernel_time": 0.156421, "process_mem_max_rss": "97192", "process_in_blocks": "1072", "process_out_blocks": "80"}
+[0m06:33:50.759425 [debug] [MainThread]: Command `dbt init` succeeded at 06:33:50.759045 after 101.61 seconds
+[0m06:33:50.760517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a065e2bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a048fab90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a048fa0b0>]}
+[0m06:33:50.761491 [debug] [MainThread]: Flushing usage events
+[0m06:33:58.533761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf2e38ec20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf2ead3190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf2c7b71f0>]}
+
+
+============================== 06:33:58.536680 | 12dc1f07-c19b-414a-b8ef-41424b5a2f91 ==============================
+[0m06:33:58.536680 [info ] [MainThread]: Running with dbt=1.7.7
+[0m06:33:58.537440 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/akmalhafiz1771998/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m06:33:58.537970 [info ] [MainThread]: dbt version: 1.7.7
+[0m06:33:58.538374 [info ] [MainThread]: python version: 3.10.12
+[0m06:33:58.538788 [info ] [MainThread]: python path: /home/akmalhafiz1771998/data_warehouse/adventureworks/adventureworks_venv/bin/python3
+[0m06:33:58.539195 [info ] [MainThread]: os info: Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[0m06:33:58.659952 [info ] [MainThread]: Using profiles dir at /home/akmalhafiz1771998/.dbt
+[0m06:33:58.660599 [info ] [MainThread]: Using profiles.yml file at /home/akmalhafiz1771998/.dbt/profiles.yml
+[0m06:33:58.661154 [info ] [MainThread]: Using dbt_project.yml file at /home/akmalhafiz1771998/data_warehouse/adventureworks/dbt_project.yml
+[0m06:33:58.661755 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m06:33:58.662773 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.2070307, "process_user_time": 2.106232, "process_kernel_time": 0.055427, "process_mem_max_rss": "98040", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m06:33:58.663298 [debug] [MainThread]: Command `dbt debug` failed at 06:33:58.663155 after 0.21 seconds
+[0m06:33:58.663688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf2e38ec20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf2d9b4fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf2c8394e0>]}
+[0m06:33:58.664641 [debug] [MainThread]: Flushing usage events
