@@ -1,6 +1,8 @@
 ### Architecture:
 ![Architecture_Diagram](etl.png)
 
+### Data Orchestrator View:
+![data-orchestrator](dagster.png)
 
 ### Steps:
 #Prerequisite: 
