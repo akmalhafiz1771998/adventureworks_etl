@@ -1,3 +1,7 @@
+### Architecture:
+![Architecture_Diagram](etl.png)
+
+
 ### Steps:
 #Prerequisite: 
 -need to install airbyte
